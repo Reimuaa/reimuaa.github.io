@@ -1,0 +1,60 @@
+body {
+    background-color: #47484C;
+    font-family: system-ui;
+    font-size: 1.125rem;
+    line-height: 2;
+    width: min(100ch , 100% - 4rem);
+    margin-inline: auto;
+}
+main {
+    background: url(img/5.jpg);
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 3%;
+    border-radius: 10px;
+}
+p {
+    text-indent:2em;
+}
+a {
+    color: #1189ca;
+    text-decoration: none;
+}
+img,
+svg,
+video {
+    max-width: 100%;
+    display: block;
+}
+span.black {
+    background-color: black;
+    color: black;
+}
+span.black:hover {
+    color: white;
+}
+
+.reimu {
+    color:#da2b42;
+}
+.me {
+    color:#617172;
+}
+.sakuya {
+    color:#619ac3;
+}
+.remi {
+    color:#c02c38;
+}
+.hong {
+    color:#088563;
+}
+.flan{
+    color:#beca0c;
+}
+.QUM{
+    color:#d461eb;
+}
+.marisa{
+    color:#fbff00;
+}
