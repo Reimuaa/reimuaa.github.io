@@ -1,11 +1,12 @@
 body{
-    background-image: url("https://www.loliapi.com/acg/");
+    background-image: url("https://www.loliapi.com/acg/?v=1");
               background-size: cover;
               background-attachment: fixed; /* This prevents the background from scrolling */
               height: 100%; /* Ensure full viewport height */
               background-position: center; /* Adjust the position to center bottom */
-              position: relative;  
+              position: relative;
   }
+
   main{
     border-radius: 30px;
     margin: 0 10% 0 10%;
