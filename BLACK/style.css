@@ -1,3 +1,38 @@
+body{
+    background-image: url('B.png');
+              background-size: cover;
+              background-attachment: fixed; /* This prevents the background from scrolling */
+              height: 100%; /* Ensure full viewport height */
+              background-position: center; /* Adjust the position to center bottom */
+              position: relative;  
+  }
+  main{
+    
+    background:url(img/R-C.jpg);
+    border-radius: 30px;
+    margin: 0 10% 0 10%;
+    opacity:0.85;
+    filter:alpha(opacity=70);
+  }
+  main p{
+    font-weight:bold;
+    color:#ffffff;
+    letter-spacing:2px;
+    line-height:170%;
+    font-size:110%;
+    margin: 0 5% 0 5%;
+    text-indent:2em;
+  }
+
+a {
+    font-weight:bold;
+    color:#fa0011;
+    letter-spacing:2px;
+    line-height:170%;
+    font-size:110%;
+    margin: 0 5% 0 5%;
+    text-indent:2em;
+}
 body {
     background-color: #181818;
     font-family: system-ui;
@@ -6,15 +41,15 @@ body {
     width: min(100ch , 100% - 4rem);
     margin-inline: auto;
 }
-main {
-    background:url(img/R-C.jpg);
-    padding-left: 2%;
-    padding-right: 2%;
-    padding-bottom: 3%;
-    border-radius: 10px;
-}
+
 p,
-h1,
+h1{
+    font-weight:bold;
+  letter-spacing:5px;
+  line-height:200%;
+  text-indent:5%;
+  color: #ffffff;
+}
 h2 {
     color: white;
 }
