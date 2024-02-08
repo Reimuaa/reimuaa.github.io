@@ -1,28 +1,37 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="index.css">
-    </head>
-    <body>
-        <main>
-        <h1>挟れいむ以令幻想乡</h1>
-        <p>那么，HAVE A GOOD TIME!</p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p><a href="plus/plus/page1.html">START！</a></p>
-        <p><a href="plus/plus/1写在前面.html">写在前面</a></p>
-        <p><a href="plus/plus/1money.html">支持笔者（物理）</a></p>
-        <p><a href="tu.html">更多图图（按F5刷新）</a></p>
-        
-        
-    
-    </main>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>挟れいむ以令幻想乡</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            overflow: hidden; /* Prevent scrollbars */
+            height: 100%;
+        }
+        iframe {
+            border: none;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <button id="playButton">Play Sound</button>
+    <iframe src="start.html"></iframe>
+    <script>
+        // Function to play the sound
+        function playSound() {
+            var audio = new Audio('bgm/上海アリス幻樂団 - 永夜抄　～ Eastern Night.mp3');
+            audio.play();
+        }
+
+        // Event listener for the button click
+        document.getElementById('playButton').addEventListener('click', function() {
+            playSound();
+        });
+    </script>
+</body>
 </html>
